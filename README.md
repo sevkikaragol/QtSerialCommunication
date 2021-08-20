@@ -1,3 +1,2 @@
 # QtSerialCommunication
-# QtSerialCommunication
-# QtSerialCommunicaion
+
