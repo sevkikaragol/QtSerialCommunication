@@ -19,7 +19,7 @@ void udp::veriAktarimi(QByteArray veri)
     QByteArray data;
     data.append(veri);
 
-    //data.append("Hello from UDP ");
+
     socket->writeDatagram(data,QHostAddress(ipAdresi),1234);
 
 
