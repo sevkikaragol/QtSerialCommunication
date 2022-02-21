@@ -24,12 +24,12 @@ MainWindow::MainWindow(QWidget *parent)
 {
 
     worker = new workerThread(false);
-   // worker->start();
+   
 
     server = new udp();
 
     loggerThread = new LoggerThread(flag,worker);
-    //loggerThread->start();
+    
 
 
     ui->setupUi(this);
@@ -76,19 +76,6 @@ void MainWindow::newLog()
         dir.mkpath(filePath); // path bulunamadıysa olusturur.
 
     worker->filePath = filePath;
-
-    /*
-    QFile gpsFile(filePath+"\\gps.csv");
-    gpsFile.open(QIODevice::WriteOnly);
-
-    QFile imuFile(filePath+"\\imu.csv");
-    imuFile.open(QIODevice::WriteOnly);
-
-    QFile sicaklikFile(filePath+"\\sicaklik.csv");
-    sicaklikFile.open(QIODevice::WriteOnly);*/
-
-
-
 
 
 
