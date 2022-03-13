@@ -19,7 +19,7 @@ port seçimi almaktadır. Kontrollerin yapılmasının ardından hatalı giriş 
 
 ![durdur](https://user-images.githubusercontent.com/49278142/158070826-7ffd4699-ecaa-4987-a425-2709d6c32d6a.png)
 ---
-* Verilerin com port üzerinden alınmasının ardından loglama aşamasına geçilir. Veriler tiplerine göre ayrı **.csv** dosyalarına ayrıştırılır ve sistem saati ve tarihine göre adlandırılan klasörlerin içerisine yerleştirilir.
+* Verilerin com port üzerinden alınmasının ardından loglama aşamasına geçilir. Veriler tiplerine göre ayrı **.csv** dosyalarına ayrıştırılır, sistem saati ve tarihine göre adlandırılan klasörlerin içerisine yerleştirilir.
 
 
 
