@@ -11,7 +11,7 @@ Proje geliştirilirken **Qt**, test çalışmalarında ise **Docklight ve sanal 
 ## Proje Detayları
 * İlk olarak haberleşmenin yönetilmesi için arayüz üzerinden sender ip, receiver ip ve com port bilgileri alınmaktadır. Kontrollerin yapılmasının ardından hatalı giriş yoksa başlat butonuna tıklanmasıyla birlikte uygulama çalışmaktadır.
 
-* Verilerin com port üzerinden alındıktan sonra Ethernet portu üzerinden gönderme işlemine başlanmaktadır. Ayrıca alınan veriler üzerinde loglama işlemi de yapılmaktadır.Veriler tiplerine göre ayrı **.csv** dosyalarına ayrıştırılmaktadır, sistem saati ve tarihine göre adlandırılan klasörlerin içerisine yerleştirilmektedir.
+* Veriler com port üzerinden alındıktan sonra Ethernet portu üzerinden gönderme işlemine başlanmaktadır. Ayrıca alınan veriler üzerinde loglama işlemi de yapılmaktadır.Veriler tiplerine göre ayrı **.csv** dosyalarına ayrıştırılmaktadır, sistem saati ve tarihine göre adlandırılan klasörlerin içerisine yerleştirilmektedir.
 
 *Klasörler uygulama başladığında otomatik olarak oluşturulmaktadır. Aynı zamanda arayüz üzerinde bulunan **"new log"** butonu ile de yeni klasör oluşturulabilmektedir.*
 
